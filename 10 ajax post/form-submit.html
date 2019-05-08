@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Form Data Submit</title>
+    </head>
+    <body>
+        <h1 id="h1">Submit Data Here!</h1>
+        <!-- method can be get and post -->
+        <!-- action is where form data is to be submitted -->
+        <div id="div-form"> 
+            <form id="form" method="post" action=" http://127.0.0.1:5500/form-database.html">
+                <label for="name">Name</label>
+                <input id="name" type="text" required>
+                <br><br>
+                <label for="email">Email</label>
+                <input id="email" type="text" required>
+                <br><br>
+                <button id="button-form">Submit</button>
+            </form>
+        </div>
+        <script src = "https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

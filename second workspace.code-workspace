@@ -1,0 +1,61 @@
+{
+	"folders": [
+		{
+			"path": "01 dom beginner"
+		},
+		{
+			"path": "02 dom selecting"
+		},
+		{
+			"path": "03 dom modifying"
+		},
+		{
+			"path": "04 dom events"
+		},
+		{
+			"path": "05 webApp - ListApp"
+		},
+		{
+			"path": "06 jquery beginner"
+		},
+		{
+			"path": "07 webApp - PetFormFilling"
+		},
+		{
+			"path": "08 ajax beginner"
+		},
+		{
+			"path": "09 webApp - Office Status"
+		},
+		{
+			"path": "10 ajax post"
+		},
+		{
+			"path": "11 webApp - Flickr Photo API"
+		},
+		{
+			"path": "12 objectJS dieRoll"
+		},
+		{
+			"path": "13 objectJS calculator"
+		},
+		{
+			"path": "14 objectJS playlist"
+		},
+		{
+			"path": "DOM"
+		},
+		{
+			"path": "ListApp - PriorityScheduler"
+		},
+		{
+			"path": "AJAX"
+		},
+		{
+			"path": "API"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "API"
+	}
+}

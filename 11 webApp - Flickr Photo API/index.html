@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Flickr Photo WebApp</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <style>
+            body{
+                background-color: indianred;
+                line-height: 1.6;
+            }
+            .inline{
+                display: inline;
+            }
+            .selected{
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1 id="h1">Photos from Flickr</h1></center>
+        <hr>
+        <div id="div-form"> 
+            <form id="form" method="post" action=" http://127.0.0.1:5500/form-database.html">
+                <label for="tags">Tags: </label>
+                <input id="tags" type="text" required>
+                <button id="button-form">Submit</button>
+            </form>
+        </div>
+        <hr><hr>
+        <div id="div-button">
+            <ul id="ul">
+                <li style="display:inline"><button>Cat</button></li>
+                <li style="display:inline"><button>Dog</button></li>
+                <li style="display:inline"><button>Moose</button></li>
+            </ul>
+        </div>
+        <hr><hr>
+        <div id="div-photo">
+            <!--<ul id="ul-photo">
+                <li class="inline">
+                    <a href="https://www.flickr.com/photos/146114398@N07/32720464828/">
+                    <img src="https://farm8.staticflickr.com/7805/32720464828_d5d4549f3c_m.jpg">
+                    </a>
+                </li>
+                <li class="inline">
+                    <a href="https://www.flickr.com/photos/146114398@N07/32720464828/">
+                    <img src="https://farm8.staticflickr.com/7805/32720464828_d5d4549f3c_m.jpg">
+                    </a>
+                </li>
+                <li class="inline">
+                    <a href="https://www.flickr.com/photos/146114398@N07/32720464828/">
+                    <img src="https://farm8.staticflickr.com/7805/32720464828_d5d4549f3c_m.jpg">
+                    </a>
+                </li>
+            </ul>-->
+        </div>
+        <script src = "https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+        <script src="app2.js"></script>
+    </body>
+</html>

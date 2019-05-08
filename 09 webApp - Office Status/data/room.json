@@ -1,0 +1,19 @@
+
+[
+    {
+        "roomNo" : 101 ,
+        "status" : "occupied"
+    } ,
+    {
+        "roomNo" : 105 ,
+        "status" : "vacant"
+    } ,
+    {
+        "roomNo" : 107 ,
+        "status" : "occupied"
+    } ,
+    {
+        "roomNo" : 113 ,
+        "status" : "occupied"
+    } 
+]

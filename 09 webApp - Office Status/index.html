@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Employee Status</title>
+        <style>
+            body{
+                background-color: aliceblue;
+            }
+            .in::before{
+                content: "IN";
+                background-color: red;
+            }
+            .out::before{
+                content: "OUT";
+                background-color: darkgreen;
+            }
+
+            .full::after{
+                content: "OCCUPIED";
+                background-color: plum;
+            }
+            .empty::after{
+                content: "VACANT";
+                background-color: dimgray;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id = "h1"> Employee Status using AJAX Calls</h1>
+        <h2 id = "h2">Employee List</h2>
+        
+        <button id="button-ajax">Employee Status</button>
+        <div id="div-emp"></div>
+        <hr><hr>
+        
+        <button id="button-ajax2">Room Status</button>
+        <div id="div-room"></div>
+        
+        <script src = "https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="javascript/widget3.js"></script>
+        <script src="javascript/widget4.js"></script>
+    </body>
+</html>

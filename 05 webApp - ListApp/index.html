@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>ListApp</title>
+        <style>
+            body{
+                background-color:slategray;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "heading"> 
+            <h1 id = "h1" style="font-size: 44px">List App using DOM Selection, Manipulation and Interaction</h1>
+        </div>
+        <hr><hr>
+        
+        <button id = "listViewButton" style="font-size: 24px">Hide List</button>
+        <br><br>
+        
+        <div id = "listDiv" class = "listClass">
+
+            <input id="listColorText" type="text" placeholder="New Color">
+            <button id="listColorButton">Submit</button>
+            <hr><hr>
+            
+            <p id="listName" style="font-size: 32px">To Do List: </p>
+            <input id = "listNameText" type="text" placeholder="listName">
+            <br><br>
+            <button id="listNameButton">Change List Description</button>
+            <hr><hr>
+            
+            <ul id = "ul">
+                <li>Batman <!--<button id ="Remove" style="display: block">Remove</button>--></li>
+                <li>CaptainAmerica <!--<button id ="Remove" style="display: block">Remove</button>--></li>
+                <li>Spiderman <!--<button id ="Remove" style="display: block">Remove</button>--></li>
+                <li>Wolverine <!--<button id ="Remove" style="display: block">Remove</button>--></li>
+                <li>Ironman <!--<button id ="Remove" style="display: block">Remove</button>--></li>
+            </ul>
+            <hr><hr>
+            
+            <input id = "listAddInput" type="text" style="display: inline-block">
+            <button id="listAddButton">Add Item</button>
+        
+        </div>
+        <script src = "randomColor.js"></script>
+        <script src = "app.js"></script>
+        <script src = "listMan.js"></script>
+    </body>
+</html>

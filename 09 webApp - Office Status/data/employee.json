@@ -1,0 +1,19 @@
+
+[
+    {
+        "name" : "Diamond" ,
+        "inoffice" : "no"
+    } ,
+    {
+        "name" : "Spade" ,
+        "inoffice" : "yes"
+    } ,
+    {
+        "name" : "Club" ,
+        "inoffice" : "yes"
+    } ,
+    {
+        "name" : "Heart" ,
+        "inoffice" : "no"
+    } 
+]
